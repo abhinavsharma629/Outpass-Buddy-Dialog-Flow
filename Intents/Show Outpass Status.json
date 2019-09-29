@@ -1,0 +1,269 @@
+{
+  "id": "ab623158-6800-49ba-862f-34d4f4aa5026",
+  "name": "Show Outpass Status",
+  "auto": true,
+  "contexts": [
+    "AskForCredentails"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "f5d3e2cb-e87f-4412-a232-e5ec0b53bb77",
+          "required": false,
+          "dataType": "@outpass-status",
+          "name": "outpass-status",
+          "value": "$outpass-status",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "2f0b3670-2fc0-48f4-b0ca-87418724664d",
+          "required": false,
+          "dataType": "@outpass-status",
+          "name": "outpass-status1",
+          "value": "$outpass-status1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "26d4613d-3525-4b4f-89db-6f584e682c82",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "outpassId",
+          "value": "$outpassId",
+          "prompts": [
+            "Outpass Id please.",
+            "Please give me your outpass id."
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "37618c9e-0214-4378-bc54-a0499933cf06",
+      "data": [
+        {
+          "text": "outpass status",
+          "alias": "outpass-status1",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " for outpass id ",
+          "userDefined": false
+        },
+        {
+          "text": "54",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c93bc090-c552-4999-bf39-2ac012296532",
+      "data": [
+        {
+          "text": "outpass status",
+          "alias": "outpass-status1",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "56",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "b2c59665-9b75-453b-8e54-87a2c289e301",
+      "data": [
+        {
+          "text": "show",
+          "alias": "outpass-status",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "outpass status",
+          "alias": "outpass-status1",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " for ",
+          "userDefined": false
+        },
+        {
+          "text": "56",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9e38f6f7-79f7-40bd-9b78-28fd42aac8f1",
+      "data": [
+        {
+          "text": "show",
+          "alias": "outpass-status",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " outpass ",
+          "userDefined": false
+        },
+        {
+          "text": "56",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "status",
+          "alias": "outpass-status1",
+          "meta": "@outpass-status",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2246f786-13fa-4ede-a49e-f7a3cc1c7bd5",
+      "data": [
+        {
+          "text": "show",
+          "alias": "outpass-status",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "status of outpass",
+          "alias": "outpass-status1",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " with id ",
+          "userDefined": false
+        },
+        {
+          "text": "45",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c2a0df05-1790-4ee5-9cf4-6b602350ad38",
+      "data": [
+        {
+          "text": "show",
+          "alias": "outpass-status",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "outpass status",
+          "alias": "outpass-status1",
+          "meta": "@outpass-status",
+          "userDefined": false
+        },
+        {
+          "text": " with id ",
+          "userDefined": false
+        },
+        {
+          "text": "87",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

@@ -1,0 +1,112 @@
+{
+  "id": "b6e0820a-4e26-434e-9d69-9e36f77aac41",
+  "name": "Save Outpass",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "d751dbd2-01ac-43bb-8e88-ca464c31c46a",
+          "required": false,
+          "dataType": "@save-outpass",
+          "name": "save-outpass",
+          "value": "$save-outpass",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Sorry you need to create an outpass first for saving it.",
+            "Create a new outpass for saving it."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "e04cb949-0b79-4566-a49f-f14af929bd25",
+      "data": [
+        {
+          "text": "save outpass",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e88535ba-0bdf-49f2-9d6b-810d50fbe5d8",
+      "data": [
+        {
+          "text": "save",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "71b51724-a187-496e-84ce-801e5a6943fd",
+      "data": [
+        {
+          "text": "save it",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5dcdf931-5d9e-44e4-a429-faa80584dbc1",
+      "data": [
+        {
+          "text": "save my outpass",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

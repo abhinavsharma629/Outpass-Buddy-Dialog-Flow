@@ -1,0 +1,155 @@
+{
+  "id": "d53751fb-9e8e-4826-9404-68026e78d5fe",
+  "name": "Send Saved Outpass",
+  "auto": true,
+  "contexts": [
+    "AskForCredentails"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ecb986c2-649a-4e9e-8122-6ad70c5dc600",
+          "required": false,
+          "dataType": "@send-outpass",
+          "name": "send-outpass",
+          "value": "$send-outpass",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "5e0196e1-90db-44db-8ac2-b98cc3cc8cda",
+          "required": true,
+          "dataType": "@sys.number",
+          "name": "outpassId",
+          "value": "$outpassId",
+          "prompts": [
+            "Outpass Id please?",
+            "Whats is the outpass id?"
+          ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": true,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "79248918-5d01-431c-b062-f24019d86655",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " saved outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "17e4fe93-e1d3-4348-a96a-5b167ccd0e23",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5784b1fa-fb3f-4381-ab6f-72adc922a298",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " saved outpass with id ",
+          "userDefined": false
+        },
+        {
+          "text": "35",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f5c15825-10fe-4f94-bda2-db1c7bed6764",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " outpass with id ",
+          "userDefined": false
+        },
+        {
+          "text": "45",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

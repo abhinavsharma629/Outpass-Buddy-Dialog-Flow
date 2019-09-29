@@ -1,0 +1,31 @@
+{
+  "id": "51abb973-2e1e-4e8e-a4fe-499ed4e018e8",
+  "name": "outpass-status",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "status",
+      "synonyms": [
+        "status",
+        "outpass status",
+        "my status",
+        "outpass's status",
+        "my outpass's status",
+        "status of outpass"
+      ]
+    },
+    {
+      "value": "show",
+      "synonyms": [
+        "show",
+        "view",
+        "viewing",
+        "viewed"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}

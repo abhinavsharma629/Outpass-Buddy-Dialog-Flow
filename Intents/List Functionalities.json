@@ -1,0 +1,276 @@
+{
+  "id": "0c677c1f-e576-4d1a-9795-27438548282d",
+  "name": "List Functionalities",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "49ac7206-c9f0-4f6e-add9-c257b188da73",
+          "required": false,
+          "dataType": "@List-Of-Functionalities",
+          "name": "List-Of-Functionalities",
+          "value": "$List-Of-Functionalities",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": true
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "Delete , Create, Save As Draft, View Details, View Outpass Status, See pending outpass, Send Outpass for verification to warden and much more. Read my manual for more."
+        },
+        {
+          "type": "list_card",
+          "platform": "google",
+          "condition": "",
+          "title": "Here is What functionalities i am programmed for",
+          "subtitle": "Which 1 can I help you with?",
+          "items": [
+            {
+              "optionInfo": {
+                "key": "Delete",
+                "synonyms": []
+              },
+              "title": "Delete an outpass",
+              "description": "Give me your outpass id and I will delete it for you",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Show",
+                "synonyms": []
+              },
+              "title": "Show you your outpass details",
+              "description": "Give me your outpass id and I will show it to you",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Status",
+                "synonyms": []
+              },
+              "title": "Show you an outpass status",
+              "description": "Give me your outpass id and I will show its current status to you",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Pending",
+                "synonyms": []
+              },
+              "title": "Show your currently pending outpass",
+              "description": "Show your current pending outpass in one click",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Create",
+                "synonyms": []
+              },
+              "title": "Create an outpass",
+              "description": "Create a new outpass and send it to your warden straight away",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Save",
+                "synonyms": []
+              },
+              "title": "Save an outpass as draft",
+              "description": "Save an outpass for future use",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            },
+            {
+              "optionInfo": {
+                "key": "Chat",
+                "synonyms": []
+              },
+              "title": "Chat with you",
+              "description": "Ask me if you will be able to go on a date and I will respond accordingly. And much more.",
+              "image": {
+                "url": "",
+                "accessibilityText": ""
+              }
+            }
+          ],
+          "lang": "en"
+        }
+      ],
+      "defaultResponsePlatforms": {
+        "google": true
+      },
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "20f67ed2-20af-4d02-b7bc-e26e5bae5b9f",
+      "data": [
+        {
+          "text": "what can you ",
+          "userDefined": false
+        },
+        {
+          "text": "do",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": true
+        },
+        {
+          "text": " for me ",
+          "userDefined": false
+        },
+        {
+          "text": "today",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a63500e5-fefa-4db1-87ba-3d47ce2160c1",
+      "data": [
+        {
+          "text": "help",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "16065092-7568-49b3-93ed-dd61074ca80c",
+      "data": [
+        {
+          "text": "please ",
+          "userDefined": false
+        },
+        {
+          "text": "help",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        },
+        {
+          "text": " me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "be1b4854-9ea3-4236-9206-3f0abfdb9e35",
+      "data": [
+        {
+          "text": "help",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        },
+        {
+          "text": " me please",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c465482e-b277-4bd3-ad5e-99abe4171004",
+      "data": [
+        {
+          "text": "how can you ",
+          "userDefined": false
+        },
+        {
+          "text": "help",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        },
+        {
+          "text": " me?",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "2bd0cb33-dc49-4a7a-a0e0-e001c5daa551",
+      "data": [
+        {
+          "text": "help",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        },
+        {
+          "text": " me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

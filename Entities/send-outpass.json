@@ -1,0 +1,17 @@
+{
+  "id": "d4d1a9cb-4abd-4465-b18b-eadbe2faa3ce",
+  "name": "send-outpass",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "send",
+      "synonyms": [
+        "send"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}

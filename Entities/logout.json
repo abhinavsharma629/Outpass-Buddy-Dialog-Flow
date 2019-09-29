@@ -1,0 +1,44 @@
+{
+  "id": "7349e13c-8ccf-480a-8e82-6f3f5c1ea922",
+  "name": "logout",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "logout",
+      "synonyms": [
+        "logout",
+        "log out",
+        "log me out",
+        "logme out"
+      ]
+    },
+    {
+      "value": "reset",
+      "synonyms": [
+        "reset",
+        "reset my credentials",
+        "reset credentails"
+      ]
+    },
+    {
+      "value": "delete my credentials",
+      "synonyms": [
+        "delete my credentails",
+        "delete credentails"
+      ]
+    },
+    {
+      "value": "exit",
+      "synonyms": [
+        "exit",
+        "exit from server",
+        "exit me",
+        "exit me from the server"
+      ]
+    }
+  ],
+  "isEnum": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": true,
+  "isRegexp": false
+}
