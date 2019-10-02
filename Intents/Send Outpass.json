@@ -1,0 +1,168 @@
+{
+  "id": "10b3b6d3-84a5-4819-bcb3-adb69bb82b68",
+  "parentId": "90246eda-1036-4384-9f61-611744eb4677",
+  "rootParentId": "90246eda-1036-4384-9f61-611744eb4677",
+  "name": "Send Outpass",
+  "auto": true,
+  "contexts": [
+    "CreateOutpass-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CreateOutpass.CreateOutpass-custom-2",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "ee887c9a-585e-44f3-bfae-a405f53e4bd5",
+          "required": false,
+          "dataType": "@send-outpass",
+          "name": "send-outpass",
+          "value": "$send-outpass",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Sorry The Server Was Sleeping For A While!! Please Try One More Time.",
+            "Please Try One More Time. Sorry The Server Was Sleeping For A While!!",
+            "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "249b0328-6d59-4df3-a3e5-e1fa444a856e",
+      "data": [
+        {
+          "text": "please ",
+          "userDefined": false
+        },
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " it for me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "93f510c2-dcb7-4c6a-ac80-77e9cf7c7f72",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " it please",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "fc5769c4-5c8a-4550-8b62-e01cadd20474",
+      "data": [
+        {
+          "text": "sent",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ab068c6a-fda9-4c6d-8885-e73737135132",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "51279c7b-d57b-4ff0-89bc-624de429df62",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " the outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "35fb410d-552d-4da1-81b6-9506679795e4",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " it",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

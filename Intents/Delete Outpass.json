@@ -2,9 +2,7 @@
   "id": "990ecf3c-d988-444c-af45-cafb972acad8",
   "name": "Delete Outpass",
   "auto": true,
-  "contexts": [
-    "AskForCredentails"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,

@@ -2,9 +2,7 @@
   "id": "90246eda-1036-4384-9f61-611744eb4677",
   "name": "Create Outpass",
   "auto": true,
-  "contexts": [
-    "AskForCredentails"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
@@ -13,11 +11,6 @@
           "name": "CreateOutpass-followup",
           "parameters": {},
           "lifespan": 1000
-        },
-        {
-          "name": "AskForCredentails",
-          "parameters": {},
-          "lifespan": 100
         }
       ],
       "parameters": [

@@ -20,6 +20,15 @@
         "verify me",
         "verify"
       ]
+    },
+    {
+      "value": "sign in",
+      "synonyms": [
+        "sign in",
+        "sign me in",
+        "signme in",
+        "signin"
+      ]
     }
   ],
   "isEnum": false,

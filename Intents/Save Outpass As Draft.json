@@ -1,0 +1,170 @@
+{
+  "id": "d0b46b7b-7d00-40c7-a342-b481c87645e3",
+  "parentId": "90246eda-1036-4384-9f61-611744eb4677",
+  "rootParentId": "90246eda-1036-4384-9f61-611744eb4677",
+  "name": "Save Outpass As Draft",
+  "auto": true,
+  "contexts": [
+    "CreateOutpass-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "CreateOutpass.CreateOutpass-custom",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "55c5b90d-a22d-4bcb-8918-b4995f17cb27",
+          "required": false,
+          "dataType": "@save-outpass",
+          "name": "save-outpass",
+          "value": "$save-outpass",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "f03767c0-2a3b-475f-939d-5217bc2e5e8c",
+          "required": false,
+          "dataType": "@save-outpass",
+          "name": "save-outpass1",
+          "value": "$save-outpass1",
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        }
+      ],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Sorry The Server Was Sleeping For A While!! Please Try One More Time.",
+            "Please Try One More Time. Sorry The Server Was Sleeping For A While!!",
+            "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": true,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "8470e4b8-b8e3-4449-a507-5c591f2f662d",
+      "data": [
+        {
+          "text": "save",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "draft",
+          "alias": "save-outpass1",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7f50c003-e85c-4e49-99fe-0fe2c7cdecd8",
+      "data": [
+        {
+          "text": "draft",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "4583ea29-ef39-44b6-b528-6b974cb03868",
+      "data": [
+        {
+          "text": "draft it",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "70c36322-65ae-46eb-a221-028eebc85537",
+      "data": [
+        {
+          "text": "save",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7e8ecf6c-6ec4-42dd-a0cc-261564a4ac90",
+      "data": [
+        {
+          "text": "save it",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "a4481f4c-e67b-4475-98f8-ed59ade34505",
+      "data": [
+        {
+          "text": "save as draft",
+          "alias": "save-outpass",
+          "meta": "@save-outpass",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

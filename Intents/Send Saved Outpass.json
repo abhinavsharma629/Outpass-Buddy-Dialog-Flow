@@ -2,9 +2,7 @@
   "id": "d53751fb-9e8e-4826-9404-68026e78d5fe",
   "name": "Send Saved Outpass",
   "auto": true,
-  "contexts": [
-    "AskForCredentails"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,
@@ -56,6 +54,31 @@
   "fallbackIntent": false,
   "events": [],
   "userSays": [
+    {
+      "id": "d76e0df8-b5e0-4813-b87b-b26fa76b72a5",
+      "data": [
+        {
+          "text": "send",
+          "alias": "send-outpass",
+          "meta": "@send-outpass",
+          "userDefined": false
+        },
+        {
+          "text": " outpass ",
+          "userDefined": false
+        },
+        {
+          "text": "8",
+          "alias": "outpassId",
+          "meta": "@sys.number",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
     {
       "id": "79248918-5d01-431c-b062-f24019d86655",
       "data": [

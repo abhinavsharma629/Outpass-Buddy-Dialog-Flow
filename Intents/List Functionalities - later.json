@@ -1,0 +1,212 @@
+{
+  "id": "b3d46041-ce3d-4f60-9b18-d4e59127aebb",
+  "parentId": "0c677c1f-e576-4d1a-9795-27438548282d",
+  "rootParentId": "0c677c1f-e576-4d1a-9795-27438548282d",
+  "name": "List Functionalities - later",
+  "auto": true,
+  "contexts": [
+    "ListFunctionalities-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "ListFunctionalities.ListFunctionalities-later",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": "Thank you for using me. See You Again Later. Have a nice day."
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "6e88f572-d52e-48ff-8efe-0bf0acad4038",
+      "data": [
+        {
+          "text": "nothing",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "1aaff58f-9062-4f60-ab53-0103d59bec2d",
+      "data": [
+        {
+          "text": "no",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "c1a45b28-d04e-46bc-9e6c-97ed6cade47b",
+      "data": [
+        {
+          "text": "do ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "9512fa0e-c8b3-43a2-bc96-1c1ce740325e",
+      "data": [
+        {
+          "text": "later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "76757095-9f74-4a0a-94f6-5b16cb4d1144",
+      "data": [
+        {
+          "text": "I said later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cdd22ad2-3b88-41d0-9eef-b2743397447a",
+      "data": [
+        {
+          "text": "not yet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "07a67a38-9b07-4559-8f5a-27e467227088",
+      "data": [
+        {
+          "text": "some other time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5d6a927f-5ac5-4255-b582-df82cb5d6954",
+      "data": [
+        {
+          "text": "not at this time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "6006a2c9-de24-4bd9-b20f-824f2129a1d7",
+      "data": [
+        {
+          "text": "next time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "95e2b11e-1d43-4ff2-bfb4-a12f5fed0eeb",
+      "data": [
+        {
+          "text": "not at the moment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "f20b9f08-b560-4484-9b1c-4d51ba5837cc",
+      "data": [
+        {
+          "text": "ask me later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8291b07c-1df2-449d-9a93-5e4cb54acf5c",
+      "data": [
+        {
+          "text": "not ",
+          "userDefined": false
+        },
+        {
+          "text": "right now",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

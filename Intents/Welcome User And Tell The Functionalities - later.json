@@ -1,0 +1,188 @@
+{
+  "id": "6d964b49-173a-44a0-90b8-fa1ff3087f3a",
+  "parentId": "480f065f-3d71-4259-a809-c0f3d8e12253",
+  "rootParentId": "480f065f-3d71-4259-a809-c0f3d8e12253",
+  "name": "Welcome User And Tell The Functionalities - later",
+  "auto": true,
+  "contexts": [
+    "WelcomeUserAndTellTheFunctionalities-followup"
+  ],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "WelcomeUserAndTellTheFunctionalities.WelcomeUserAndTellTheFunctionalities-later",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": 0,
+          "condition": "",
+          "speech": [
+            "Thankyou for using me. See You Soon. Have a good day.",
+            "Thankyou for using me. Have a great day ahead."
+          ]
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "userSays": [
+    {
+      "id": "7fc337da-ea9e-453d-8d2f-ca730e88990e",
+      "data": [
+        {
+          "text": "do ",
+          "userDefined": false
+        },
+        {
+          "text": "it",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        },
+        {
+          "text": " later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "e5f109dd-1f16-463b-bfa8-0b0a5677dc6a",
+      "data": [
+        {
+          "text": "later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "ee4e686b-324e-4e77-bc2a-9d01d1dc6ab5",
+      "data": [
+        {
+          "text": "I said later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "3c932666-99f1-445d-b37f-0e6081ef337f",
+      "data": [
+        {
+          "text": "not yet",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "332f8ab8-0c34-4296-9c33-676c33faf0b1",
+      "data": [
+        {
+          "text": "some other time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "96ea493c-d134-43d7-9cfd-1c68b3b66ba1",
+      "data": [
+        {
+          "text": "not at this time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "8345995d-4352-4da3-a39d-6120823cc09a",
+      "data": [
+        {
+          "text": "next time",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "efeff7c3-0461-45de-ae1e-cf35f723ff90",
+      "data": [
+        {
+          "text": "not at the moment",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "cce0515f-da7e-4ece-b4bb-87e5e73b1918",
+      "data": [
+        {
+          "text": "ask me later",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 1,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "76c4f890-f347-4f56-9ad9-a77929e3fc4d",
+      "data": [
+        {
+          "text": "not ",
+          "userDefined": false
+        },
+        {
+          "text": "right now",
+          "meta": "@sys.ignore",
+          "userDefined": true
+        }
+      ],
+      "isTemplate": false,
+      "count": 2,
+      "updated": 0,
+      "isAuto": false
+    }
+  ],
+  "followUpIntents": [],
+  "liveAgentHandoff": false,
+  "endInteraction": false,
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "templates": []
+}

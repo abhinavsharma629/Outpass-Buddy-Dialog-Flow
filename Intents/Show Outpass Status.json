@@ -2,9 +2,7 @@
   "id": "ab623158-6800-49ba-862f-34d4f4aa5026",
   "name": "Show Outpass Status",
   "auto": true,
-  "contexts": [
-    "AskForCredentails"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,

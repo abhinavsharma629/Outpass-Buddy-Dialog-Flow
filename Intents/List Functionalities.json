@@ -6,7 +6,13 @@
   "responses": [
     {
       "resetContexts": false,
-      "affectedContexts": [],
+      "affectedContexts": [
+        {
+          "name": "ListFunctionalities-followup",
+          "parameters": {},
+          "lifespan": 2
+        }
+      ],
       "parameters": [
         {
           "id": "49ac7206-c9f0-4f6e-add9-c257b188da73",
@@ -18,105 +24,149 @@
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
           "outputDialogContexts": [],
-          "isList": true
+          "isList": false
         }
       ],
       "messages": [
         {
           "type": 0,
           "condition": "",
-          "speech": "Delete , Create, Save As Draft, View Details, View Outpass Status, See pending outpass, Send Outpass for verification to warden and much more. Read my manual for more."
+          "speech": "What Can I Do For You?"
         },
         {
           "type": "list_card",
           "platform": "google",
           "condition": "",
-          "title": "Here is What functionalities i am programmed for",
-          "subtitle": "Which 1 can I help you with?",
+          "title": "Here are the functionalities i am currently programmed for.",
+          "subtitle": "Which one can I help you with?",
           "items": [
             {
               "optionInfo": {
-                "key": "Delete",
+                "key": "delete",
                 "synonyms": []
               },
               "title": "Delete an outpass",
-              "description": "Give me your outpass id and I will delete it for you",
+              "description": "Give me your outpass id and I will delete it for you(Sign In Required)",
               "image": {
-                "url": "",
-                "accessibilityText": ""
+                "url": "https://upload.wikimedia.org/wikipedia/commons/8/87/Delete_Article_Alert.svg",
+                "accessibilityText": "Delete"
               }
             },
             {
               "optionInfo": {
                 "key": "Show",
-                "synonyms": []
+                "synonyms": [
+                  "view"
+                ]
               },
               "title": "Show you your outpass details",
-              "description": "Give me your outpass id and I will show it to you",
+              "description": "Give me your outpass id and I will show the details to you(Sign In Required)",
               "image": {
-                "url": "",
-                "accessibilityText": ""
+                "url": "https://image.freepik.com/free-icon/show-property_318-1921.jpg",
+                "accessibilityText": "Show"
               }
             },
             {
               "optionInfo": {
                 "key": "Status",
-                "synonyms": []
+                "synonyms": [
+                  "outpass status",
+                  "status"
+                ]
               },
               "title": "Show you an outpass status",
-              "description": "Give me your outpass id and I will show its current status to you",
+              "description": "Give me your outpass id and I will show its current status to you(Sign In Required)",
               "image": {
-                "url": "",
-                "accessibilityText": ""
-              }
-            },
-            {
-              "optionInfo": {
-                "key": "Pending",
-                "synonyms": []
-              },
-              "title": "Show your currently pending outpass",
-              "description": "Show your current pending outpass in one click",
-              "image": {
-                "url": "",
-                "accessibilityText": ""
+                "url": "https://cdn3.iconfinder.com/data/icons/startup-management-flat/256/-_product_management_account_status_project-512.png",
+                "accessibilityText": "Show Status"
               }
             },
             {
               "optionInfo": {
                 "key": "Create",
-                "synonyms": []
+                "synonyms": [
+                  "make",
+                  "create"
+                ]
               },
               "title": "Create an outpass",
-              "description": "Create a new outpass and send it to your warden straight away",
+              "description": "Create a new outpass and send it to your warden straight away or save it as draft for future use(Sign In Required)",
               "image": {
-                "url": "",
-                "accessibilityText": ""
+                "url": "https://cdn.pixabay.com/photo/2016/10/10/01/49/leave-1727488_960_720.png",
+                "accessibilityText": "Create"
               }
             },
             {
               "optionInfo": {
-                "key": "Save",
-                "synonyms": []
+                "key": "headlines",
+                "synonyms": [
+                  "current affairs"
+                ]
               },
-              "title": "Save an outpass as draft",
-              "description": "Save an outpass for future use",
+              "title": "Show Headlines",
+              "description": "Show Current Headlines about your favorite company(No Sign In Required)",
               "image": {
-                "url": "",
-                "accessibilityText": ""
+                "url": "https://lh3.googleusercontent.com/6Dw6SLX7JqrmaHzLjplk2b3UIeZiB2QsXc19Kw5nN5D5TyK5Q8G3b5rz95Q7-X0MEOQ",
+                "accessibilityText": "Headlines"
               }
             },
             {
               "optionInfo": {
-                "key": "Chat",
+                "key": "history",
                 "synonyms": []
               },
-              "title": "Chat with you",
-              "description": "Ask me if you will be able to go on a date and I will respond accordingly. And much more.",
+              "title": "History",
+              "description": "Show you the history of your previously approved outpasses or current pending outpass.(Sign In Required)",
               "image": {
-                "url": "",
-                "accessibilityText": ""
+                "url": "https://cdn3.iconfinder.com/data/icons/document-42/32/19-512.png",
+                "accessibilityText": "History"
               }
+            },
+            {
+              "optionInfo": {
+                "key": "sign in",
+                "synonyms": [
+                  "login"
+                ]
+              },
+              "title": "Sign In",
+              "description": "Sign You In Using Google Sign In Such That You can access major functionalities of me.",
+              "image": {
+                "url": "https://image.flaticon.com/icons/png/512/40/40358.png",
+                "accessibilityText": "Sign In"
+              }
+            }
+          ],
+          "lang": "en"
+        },
+        {
+          "type": "suggestion_chips",
+          "platform": "google",
+          "condition": "",
+          "suggestions": [
+            {
+              "title": "Sign In"
+            },
+            {
+              "title": "Delete Outpass"
+            },
+            {
+              "title": "Create Outpass"
+            },
+            {
+              "title": "Show Outpass"
+            },
+            {
+              "title": "Show Outpass Status"
+            },
+            {
+              "title": "Send Saved Outpass"
+            },
+            {
+              "title": "Show Headlines"
+            },
+            {
+              "title": "Show History"
             }
           ],
           "lang": "en"
@@ -134,6 +184,87 @@
   "fallbackIntent": false,
   "events": [],
   "userSays": [
+    {
+      "id": "d1c30f78-e76d-4b94-aeb2-295327083fcb",
+      "data": [
+        {
+          "text": "list",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        },
+        {
+          "text": " me your functionalities",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "5d980ce0-d1ea-4bfe-89a8-e931dca84baa",
+      "data": [
+        {
+          "text": "do",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": true
+        },
+        {
+          "text": " me a favour",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "84f0385b-4121-43ec-8629-529a838cd039",
+      "data": [
+        {
+          "text": "help",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": false
+        },
+        {
+          "text": " me in ",
+          "userDefined": false
+        },
+        {
+          "text": "some way",
+          "meta": "@sys.ignore",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
+    {
+      "id": "7fafcf39-4296-4f52-b0d6-e0b76e4e2c4e",
+      "data": [
+        {
+          "text": "do",
+          "alias": "List-Of-Functionalities",
+          "meta": "@List-Of-Functionalities",
+          "userDefined": true
+        },
+        {
+          "text": " something for me",
+          "userDefined": false
+        }
+      ],
+      "isTemplate": false,
+      "count": 0,
+      "updated": 0,
+      "isAuto": false
+    },
     {
       "id": "20f67ed2-20af-4d02-b7bc-e26e5bae5b9f",
       "data": [

@@ -2,9 +2,7 @@
   "id": "02dabc50-3b13-4673-9523-091c3584df55",
   "name": "Show Outpass",
   "auto": true,
-  "contexts": [
-    "AskForCredentails"
-  ],
+  "contexts": [],
   "responses": [
     {
       "resetContexts": false,

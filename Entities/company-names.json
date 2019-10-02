@@ -1,0 +1,41 @@
+{
+  "id": "72a68d69-4445-4e40-8c85-5898ce87377b",
+  "name": "company-names",
+  "isOverridable": true,
+  "entries": [
+    {
+      "value": "@sys.given-name:company-name",
+      "synonyms": [
+        "@sys.given-name:company-name"
+      ]
+    },
+    {
+      "value": "apple",
+      "synonyms": [
+        "apple"
+      ]
+    },
+    {
+      "value": "microsoft",
+      "synonyms": [
+        "microsoft"
+      ]
+    },
+    {
+      "value": "anglelist",
+      "synonyms": [
+        "anglelist"
+      ]
+    },
+    {
+      "value": "google",
+      "synonyms": [
+        "google"
+      ]
+    }
+  ],
+  "isEnum": true,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false,
+  "isRegexp": false
+}
