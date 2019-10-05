@@ -18,19 +18,24 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "condition": "",
-          "speech": "What Can I Do For You?"
+          "speech": [
+            "Hello, How Can I help you?",
+            "Hey, What Can I Do For You Today?"
+          ]
         },
         {
           "type": "list_card",
           "platform": "google",
+          "lang": "en",
           "condition": "",
           "title": "I am programmed for performing the following tasks.",
           "subtitle": "I recommend you to Sign In To Access My Major Facilities",
           "items": [
             {
               "optionInfo": {
-                "key": "headlines",
+                "key": "show headlines",
                 "synonyms": [
                   "current affairs",
                   "news",
@@ -40,15 +45,14 @@
               "title": "Show headlines",
               "description": "I can provide you with top news about your favorite companies from top news channels and papers.(No Sign In Required)",
               "image": {
-                "url": "https://imageog.flaticon.com/icons/png/512/21/21601.png?size=1200x630f&pad=10,10,10,10&ext=png&bg=FFFFFFFF",
+                "url": "https://imageog.flaticon.com/icons/png/512/21/21601.png?size\u003d1200x630f\u0026pad\u003d10,10,10,10\u0026ext\u003dpng\u0026bg\u003dFFFFFFFF",
                 "accessibilityText": "News"
               }
             },
             {
               "optionInfo": {
-                "key": "create",
+                "key": "create outpass",
                 "synonyms": [
-                  "create outpass",
                   "make outpass"
                 ]
               },
@@ -61,25 +65,20 @@
             },
             {
               "optionInfo": {
-                "key": "send",
-                "synonyms": [
-                  "send saved outpass",
-                  "send saved"
-                ]
+                "key": "send saved outpass",
+                "synonyms": []
               },
               "title": "Send Saved Outpass",
               "description": "Send a saved outpass to your warden.(Sign In Required)",
               "image": {
-                "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/640b6da5-7df0-4cc6-beaa-034f52a88775/d5yfhvd-0ccd3938-1a38-433b-9fe5-570549fe9bff.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY0MGI2ZGE1LTdkZjAtNGNjNi1iZWFhLTAzNGY1MmE4ODc3NVwvZDV5Zmh2ZC0wY2NkMzkzOC0xYTM4LTQzM2ItOWZlNS01NzA1NDlmZTliZmYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7zqgDwWNAs6TFUAxhmwCELjgCSCGGoZh7_YYAQviraI",
+                "url": "https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/640b6da5-7df0-4cc6-beaa-034f52a88775/d5yfhvd-0ccd3938-1a38-433b-9fe5-570549fe9bff.jpg?token\u003deyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzY0MGI2ZGE1LTdkZjAtNGNjNi1iZWFhLTAzNGY1MmE4ODc3NVwvZDV5Zmh2ZC0wY2NkMzkzOC0xYTM4LTQzM2ItOWZlNS01NzA1NDlmZTliZmYuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.7zqgDwWNAs6TFUAxhmwCELjgCSCGGoZh7_YYAQviraI",
                 "accessibilityText": "Saved"
               }
             },
             {
               "optionInfo": {
-                "key": "delete",
-                "synonyms": [
-                  "delete outpass"
-                ]
+                "key": "delete outpass",
+                "synonyms": []
               },
               "title": "Delete An Outpass",
               "description": "Delete a saved or pending outpass.(Sign In Required)",
@@ -90,10 +89,8 @@
             },
             {
               "optionInfo": {
-                "key": "show",
-                "synonyms": [
-                  "show outpass"
-                ]
+                "key": "show outpass",
+                "synonyms": []
               },
               "title": "Show Outpass Details",
               "description": "Show outpass details that you created in the past.(Sign In Required)",
@@ -104,10 +101,8 @@
             },
             {
               "optionInfo": {
-                "key": "status",
-                "synonyms": [
-                  "show outpass status"
-                ]
+                "key": "show outpass status",
+                "synonyms": []
               },
               "title": "Show Outpass Status",
               "description": "Show outpass status of a pending, saved or verified outpass that you created in the past.(Sign In Required)",
@@ -118,13 +113,11 @@
             },
             {
               "optionInfo": {
-                "key": "history",
-                "synonyms": [
-                  "show history"
-                ]
+                "key": "outpass history",
+                "synonyms": []
               },
-              "title": "Show History",
-              "description": "Show The Previous verified or current pending outpass's (Sign In Required)",
+              "title": "Outpass History",
+              "description": "Show The Previous verified or current pending outpass\u0027s (Sign In Required)",
               "image": {
                 "url": "https://previews.123rf.com/images/ascom73/ascom731806/ascom73180600054/103829592-flat-clock-vector-icon-for-graphic-design-logo-web-site-social-media-mobile-app-illustration.jpg",
                 "accessibilityText": "History"
@@ -136,8 +129,7 @@
                 "synonyms": [
                   "login",
                   "sign me in",
-                  "Sign In",
-                  "sign in"
+                  "Sign In"
                 ]
               },
               "title": "Sign In",
@@ -147,16 +139,16 @@
                 "accessibilityText": "Sign In"
               }
             }
-          ],
-          "lang": "en"
+          ]
         },
         {
           "type": "suggestion_chips",
           "platform": "google",
+          "lang": "en",
           "condition": "",
           "suggestions": [
             {
-              "title": "Sign In"
+              "title": "Sign in"
             },
             {
               "title": "Show Headlines"
@@ -171,16 +163,15 @@
               "title": "Show Outpass"
             },
             {
-              "title": "Show Outpass Status"
+              "title": "Outpass Status"
             },
             {
-              "title": "Show History"
+              "title": "History"
             },
             {
               "title": "Send Saved Outpass"
             }
-          ],
-          "lang": "en"
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -198,195 +189,7 @@
       "name": "WELCOME"
     }
   ],
-  "userSays": [
-    {
-      "id": "bb8e9c18-3377-4ce7-9d72-9b484e1485f3",
-      "data": [
-        {
-          "text": "hi",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "1a1939fe-8126-413a-8dad-97982daed70b",
-      "data": [
-        {
-          "text": "hello hi",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "19195c0a-4b57-47e7-912c-a75662193154",
-      "data": [
-        {
-          "text": "howdy",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "e03879d2-c589-4e6a-8cd4-05de2ee6e526",
-      "data": [
-        {
-          "text": "hey there",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "60eee239-f2d5-4771-81c3-abc86ef62fbf",
-      "data": [
-        {
-          "text": "hi there",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 1,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "554745b7-d7ed-4b27-940d-901c7e6b2496",
-      "data": [
-        {
-          "text": "greetings",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "dc6fa3be-912d-4af3-8499-49d9ad068605",
-      "data": [
-        {
-          "text": "hey",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "18c2e26e-b1c3-4e5f-8a0a-a3ef7959be17",
-      "data": [
-        {
-          "text": "long time no see",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "7e815f68-49c3-436f-aa35-3a0b3d00a7b4",
-      "data": [
-        {
-          "text": "hello",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "22461e0b-544a-48ec-b4a8-e64a5779573a",
-      "data": [
-        {
-          "text": "lovely day isn't it",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "c41d1350-e462-4c59-847d-8ae142d05f29",
-      "data": [
-        {
-          "text": "I greet you",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "24790500-1cd6-40bd-be6d-e06e2c333b4a",
-      "data": [
-        {
-          "text": "hello again",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 1,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "486bc79a-6551-482a-b12b-b99543123df5",
-      "data": [
-        {
-          "text": "hello there",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "7f59382d-c1df-4b7f-a113-14f086ef3c70",
-      "data": [
-        {
-          "text": "a good day",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "liveAgentHandoff": false,
-  "endInteraction": false,
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "templates": []
+  "conditionalFollowupEvents": []
 }

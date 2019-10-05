@@ -1,0 +1,17 @@
+[
+  {
+    "value": "headlines",
+    "synonyms": [
+      "headlines",
+      "headline",
+      "top news"
+    ]
+  },
+  {
+    "value": "news",
+    "synonyms": [
+      "news",
+      "current affairs"
+    ]
+  }
+]

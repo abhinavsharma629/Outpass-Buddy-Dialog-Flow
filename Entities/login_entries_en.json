@@ -1,0 +1,24 @@
+[
+  {
+    "value": "login",
+    "synonyms": [
+      "login",
+      "logme in",
+      "log in",
+      "log me in"
+    ]
+  },
+  {
+    "value": "verify",
+    "synonyms": [
+      "verify"
+    ]
+  },
+  {
+    "value": "sign in",
+    "synonyms": [
+      "sign in",
+      "signin"
+    ]
+  }
+]

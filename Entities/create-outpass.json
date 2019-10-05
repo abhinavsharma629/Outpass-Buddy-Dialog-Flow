@@ -2,30 +2,8 @@
   "id": "4195bf30-aa98-4b54-b705-a1e453f41be4",
   "name": "create-outpass",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "book",
-      "synonyms": [
-        "book",
-        "book it",
-        "book my outpass"
-      ]
-    },
-    {
-      "value": "create",
-      "synonyms": [
-        "create",
-        "new outpass",
-        "new",
-        "create outpass",
-        "build",
-        "construct",
-        "make"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": true
 }

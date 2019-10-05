@@ -27,8 +27,23 @@
           "name": "company-name",
           "value": "$company-name",
           "prompts": [
-            "Which Company Do You Want The News About?"
+            {
+              "lang": "en",
+              "value": "Which Tech Company / keyword Do You Want The News About?"
+            }
           ],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": [],
+          "isList": false
+        },
+        {
+          "id": "a70544c0-a566-4016-9e17-8ab42904a46e",
+          "required": false,
+          "dataType": "@outpass-status",
+          "name": "outpass-status",
+          "value": "$outpass-status",
           "promptMessages": [],
           "noMatchPromptMessages": [],
           "noInputPromptMessages": [],
@@ -39,6 +54,7 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "condition": "",
           "speech": "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
         }
@@ -52,149 +68,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [
-    {
-      "id": "091c81c1-b535-4ebb-9aad-4710ead36438",
-      "data": [
-        {
-          "text": "show",
-          "meta": "@sys.ignore",
-          "userDefined": false
-        },
-        {
-          "text": " ",
-          "userDefined": false
-        },
-        {
-          "text": "current affairs",
-          "alias": "headlines",
-          "meta": "@headlines",
-          "userDefined": false
-        },
-        {
-          "text": " on ",
-          "userDefined": false
-        },
-        {
-          "text": "google",
-          "alias": "company-name",
-          "meta": "@sys.any",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "d766fc1b-1eff-4310-9e79-5236148dd889",
-      "data": [
-        {
-          "text": "show",
-          "meta": "@sys.ignore",
-          "userDefined": false
-        },
-        {
-          "text": " ",
-          "userDefined": false
-        },
-        {
-          "text": "news",
-          "alias": "headlines",
-          "meta": "@headlines",
-          "userDefined": false
-        },
-        {
-          "text": " about ",
-          "userDefined": false
-        },
-        {
-          "text": "whatsapp",
-          "alias": "company-name",
-          "meta": "@sys.any",
-          "userDefined": true
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "eb0b8203-441c-420c-8d71-d8b53d7b941e",
-      "data": [
-        {
-          "text": "show",
-          "meta": "@sys.ignore",
-          "userDefined": false
-        },
-        {
-          "text": " ",
-          "userDefined": false
-        },
-        {
-          "text": "headlines",
-          "alias": "headlines",
-          "meta": "@headlines",
-          "userDefined": false
-        },
-        {
-          "text": " about ",
-          "userDefined": false
-        },
-        {
-          "text": "apple",
-          "alias": "company-name",
-          "meta": "@sys.any",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "447f1d5a-b4fd-42a7-8aaa-787b9d4650ba",
-      "data": [
-        {
-          "text": "show",
-          "meta": "@sys.ignore",
-          "userDefined": false
-        },
-        {
-          "text": " ",
-          "userDefined": false
-        },
-        {
-          "text": "headlines",
-          "alias": "headlines",
-          "meta": "@headlines",
-          "userDefined": false
-        },
-        {
-          "text": " about ",
-          "userDefined": false
-        },
-        {
-          "text": "instagram",
-          "alias": "company-name",
-          "meta": "@sys.any",
-          "userDefined": true
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "liveAgentHandoff": false,
-  "endInteraction": false,
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "templates": []
+  "conditionalFollowupEvents": []
 }

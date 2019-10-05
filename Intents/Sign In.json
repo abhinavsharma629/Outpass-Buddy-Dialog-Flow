@@ -24,12 +24,9 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "condition": "",
-          "speech": [
-            "Sorry The Server Was Sleeping For A While! Pease Try Again.",
-            "Please Try Again. Sorry The Server Was Sleeping For A While.",
-            "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
-          ]
+          "speech": "Server Was Sleeping For A While. Please Try Again."
         }
       ],
       "defaultResponsePlatforms": {},
@@ -45,126 +42,7 @@
       "name": "actions_intent_SIGN_IN"
     }
   ],
-  "userSays": [
-    {
-      "id": "079757d4-fec6-4826-8c96-8c2b0b783dd3",
-      "data": [
-        {
-          "text": "sign in",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 1,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "020a41f7-8656-4aa4-93a9-1d902b169ff5",
-      "data": [
-        {
-          "text": "i want to ",
-          "userDefined": false
-        },
-        {
-          "text": "sign in",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "a4c2f63b-3697-49c2-a319-8896b231d0ea",
-      "data": [
-        {
-          "text": "please ",
-          "userDefined": false
-        },
-        {
-          "text": "sign me in",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 1,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "a8898968-4d1a-4682-a585-9d6e7d0a215a",
-      "data": [
-        {
-          "text": "signin",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "b4d891ae-d414-4d80-82db-09bae5b67dca",
-      "data": [
-        {
-          "text": "login",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "0d37a089-10a3-4ff8-9bee-6d33fcefce81",
-      "data": [
-        {
-          "text": "sign me in",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "57c1e58f-f7c1-4a63-909e-388031414b4a",
-      "data": [
-        {
-          "text": "log me in",
-          "alias": "login",
-          "meta": "@login",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "liveAgentHandoff": false,
-  "endInteraction": false,
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "templates": []
+  "conditionalFollowupEvents": []
 }

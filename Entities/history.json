@@ -2,20 +2,8 @@
   "id": "de936286-a5b7-4a2b-a87d-0ef022c5701e",
   "name": "history",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "history",
-      "synonyms": [
-        "history",
-        "outpass history",
-        "my history",
-        "get my outpass id",
-        "get all my outpass id's"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": false
 }

@@ -29,6 +29,7 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "condition": "",
           "speech": [
             "Sorry The Server Was Sleeping For A While!! Please Try One More Time.",
@@ -46,123 +47,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [
-    {
-      "id": "249b0328-6d59-4df3-a3e5-e1fa444a856e",
-      "data": [
-        {
-          "text": "please ",
-          "userDefined": false
-        },
-        {
-          "text": "send",
-          "alias": "send-outpass",
-          "meta": "@send-outpass",
-          "userDefined": false
-        },
-        {
-          "text": " it for me",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "93f510c2-dcb7-4c6a-ac80-77e9cf7c7f72",
-      "data": [
-        {
-          "text": "send",
-          "alias": "send-outpass",
-          "meta": "@send-outpass",
-          "userDefined": false
-        },
-        {
-          "text": " it please",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "fc5769c4-5c8a-4550-8b62-e01cadd20474",
-      "data": [
-        {
-          "text": "sent",
-          "alias": "send-outpass",
-          "meta": "@send-outpass",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "ab068c6a-fda9-4c6d-8885-e73737135132",
-      "data": [
-        {
-          "text": "send",
-          "alias": "send-outpass",
-          "meta": "@send-outpass",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "51279c7b-d57b-4ff0-89bc-624de429df62",
-      "data": [
-        {
-          "text": "send",
-          "alias": "send-outpass",
-          "meta": "@send-outpass",
-          "userDefined": false
-        },
-        {
-          "text": " the outpass",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "35fb410d-552d-4da1-81b6-9506679795e4",
-      "data": [
-        {
-          "text": "send",
-          "alias": "send-outpass",
-          "meta": "@send-outpass",
-          "userDefined": false
-        },
-        {
-          "text": " it",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "liveAgentHandoff": false,
-  "endInteraction": false,
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "templates": []
+  "conditionalFollowupEvents": []
 }

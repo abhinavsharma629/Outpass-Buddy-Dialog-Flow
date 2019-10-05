@@ -2,28 +2,8 @@
   "id": "f6cd94a9-33da-43e1-be6b-cf00912ab10c",
   "name": "List-Of-Functionalities",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "list",
-      "synonyms": [
-        "list"
-      ]
-    },
-    {
-      "value": "help",
-      "synonyms": [
-        "help"
-      ]
-    },
-    {
-      "value": "do",
-      "synonyms": [
-        "do"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": false
 }

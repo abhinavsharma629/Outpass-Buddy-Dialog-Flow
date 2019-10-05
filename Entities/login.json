@@ -2,37 +2,8 @@
   "id": "e90d93cb-f2bf-4086-a75e-63a106cc557f",
   "name": "login",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "login",
-      "synonyms": [
-        "login",
-        "log me in",
-        "logme in",
-        "log in"
-      ]
-    },
-    {
-      "value": "verify details with server",
-      "synonyms": [
-        "verify details with server",
-        "verify my details",
-        "verify me",
-        "verify"
-      ]
-    },
-    {
-      "value": "sign in",
-      "synonyms": [
-        "sign in",
-        "sign me in",
-        "signme in",
-        "signin"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": true
 }

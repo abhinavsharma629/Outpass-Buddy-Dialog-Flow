@@ -2,25 +2,8 @@
   "id": "5fe79067-3d37-49e1-bb7b-b4fb313f2c79",
   "name": "headlines",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "headlines",
-      "synonyms": [
-        "headlines",
-        "headline",
-        "top news"
-      ]
-    },
-    {
-      "value": "news",
-      "synonyms": [
-        "news",
-        "current affairs"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": false,
-  "isRegexp": false
+  "allowFuzzyExtraction": false
 }

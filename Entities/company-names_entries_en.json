@@ -1,0 +1,32 @@
+[
+  {
+    "value": "@sys.given-name:company-name",
+    "synonyms": [
+      "@sys.given-name:company-name"
+    ]
+  },
+  {
+    "value": "apple",
+    "synonyms": [
+      "apple"
+    ]
+  },
+  {
+    "value": "microsoft",
+    "synonyms": [
+      "microsoft"
+    ]
+  },
+  {
+    "value": "anglelist",
+    "synonyms": [
+      "anglelist"
+    ]
+  },
+  {
+    "value": "google",
+    "synonyms": [
+      "google"
+    ]
+  }
+]

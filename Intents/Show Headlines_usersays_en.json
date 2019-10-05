@@ -1,0 +1,158 @@
+[
+  {
+    "id": "852f1826-e4b8-4b05-9a3f-d477c87dccd2",
+    "data": [
+      {
+        "text": "Show",
+        "alias": "outpass-status",
+        "meta": "@outpass-status",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "Headlines",
+        "alias": "headlines",
+        "meta": "@headlines",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "091c81c1-b535-4ebb-9aad-4710ead36438",
+    "data": [
+      {
+        "text": "show",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "current affairs",
+        "alias": "headlines",
+        "meta": "@headlines",
+        "userDefined": false
+      },
+      {
+        "text": " on ",
+        "userDefined": false
+      },
+      {
+        "text": "google",
+        "alias": "company-name",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "d766fc1b-1eff-4310-9e79-5236148dd889",
+    "data": [
+      {
+        "text": "show",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "news",
+        "alias": "headlines",
+        "meta": "@headlines",
+        "userDefined": false
+      },
+      {
+        "text": " about ",
+        "userDefined": false
+      },
+      {
+        "text": "whatsapp",
+        "alias": "company-name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "eb0b8203-441c-420c-8d71-d8b53d7b941e",
+    "data": [
+      {
+        "text": "show",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "headlines",
+        "alias": "headlines",
+        "meta": "@headlines",
+        "userDefined": false
+      },
+      {
+        "text": " about ",
+        "userDefined": false
+      },
+      {
+        "text": "apple",
+        "alias": "company-name",
+        "meta": "@sys.any",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  },
+  {
+    "id": "447f1d5a-b4fd-42a7-8aaa-787b9d4650ba",
+    "data": [
+      {
+        "text": "show",
+        "meta": "@sys.ignore",
+        "userDefined": false
+      },
+      {
+        "text": " ",
+        "userDefined": false
+      },
+      {
+        "text": "headlines",
+        "alias": "headlines",
+        "meta": "@headlines",
+        "userDefined": false
+      },
+      {
+        "text": " about ",
+        "userDefined": false
+      },
+      {
+        "text": "instagram",
+        "alias": "company-name",
+        "meta": "@sys.any",
+        "userDefined": true
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "updated": 0
+  }
+]

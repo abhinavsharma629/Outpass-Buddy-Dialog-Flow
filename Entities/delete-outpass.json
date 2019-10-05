@@ -2,26 +2,8 @@
   "id": "ace52e2b-f5eb-42ff-958c-863e5a88c309",
   "name": "delete-outpass",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "delete",
-      "synonyms": [
-        "delete",
-        "delete my outpass",
-        "delete my outpass"
-      ]
-    },
-    {
-      "value": "remove",
-      "synonyms": [
-        "remove",
-        "remove my outpass",
-        "remove outpass"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": true
 }

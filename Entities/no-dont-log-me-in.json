@@ -2,16 +2,8 @@
   "id": "046b4ba1-9171-43b3-b09c-1c30fdf5ac61",
   "name": "no-dont-log-me-in",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "no",
-      "synonyms": [
-        "no"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": true
 }

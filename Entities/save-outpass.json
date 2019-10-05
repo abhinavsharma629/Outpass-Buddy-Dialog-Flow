@@ -2,27 +2,8 @@
   "id": "c634b1f7-4c6f-4ebb-baa5-d896e9fd873e",
   "name": "save-outpass",
   "isOverridable": true,
-  "entries": [
-    {
-      "value": "save",
-      "synonyms": [
-        "save",
-        "save outpass",
-        "save my outpass",
-        "save it"
-      ]
-    },
-    {
-      "value": "draft",
-      "synonyms": [
-        "draft",
-        "save as draft",
-        "draft it"
-      ]
-    }
-  ],
   "isEnum": false,
+  "isRegexp": false,
   "automatedExpansion": true,
-  "allowFuzzyExtraction": true,
-  "isRegexp": false
+  "allowFuzzyExtraction": true
 }

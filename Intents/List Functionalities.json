@@ -30,12 +30,14 @@
       "messages": [
         {
           "type": 0,
+          "lang": "en",
           "condition": "",
           "speech": "What Can I Do For You?"
         },
         {
           "type": "list_card",
           "platform": "google",
+          "lang": "en",
           "condition": "",
           "title": "Here are the functionalities i am currently programmed for.",
           "subtitle": "Which one can I help you with?",
@@ -43,7 +45,9 @@
             {
               "optionInfo": {
                 "key": "delete",
-                "synonyms": []
+                "synonyms": [
+                  "delete outpass"
+                ]
               },
               "title": "Delete an outpass",
               "description": "Give me your outpass id and I will delete it for you(Sign In Required)",
@@ -54,16 +58,14 @@
             },
             {
               "optionInfo": {
-                "key": "Show",
-                "synonyms": [
-                  "view"
-                ]
+                "key": "show outpass",
+                "synonyms": []
               },
-              "title": "Show you your outpass details",
-              "description": "Give me your outpass id and I will show the details to you(Sign In Required)",
+              "title": "Show Outpass Details",
+              "description": "Show outpass details that you created in the past.(Sign In Required)",
               "image": {
                 "url": "https://image.freepik.com/free-icon/show-property_318-1921.jpg",
-                "accessibilityText": "Show"
+                "accessibilityText": "Details"
               }
             },
             {
@@ -74,7 +76,7 @@
                   "status"
                 ]
               },
-              "title": "Show you an outpass status",
+              "title": "Show Outpass status",
               "description": "Give me your outpass id and I will show its current status to you(Sign In Required)",
               "image": {
                 "url": "https://cdn3.iconfinder.com/data/icons/startup-management-flat/256/-_product_management_account_status_project-512.png",
@@ -136,12 +138,12 @@
                 "accessibilityText": "Sign In"
               }
             }
-          ],
-          "lang": "en"
+          ]
         },
         {
           "type": "suggestion_chips",
           "platform": "google",
+          "lang": "en",
           "condition": "",
           "suggestions": [
             {
@@ -168,8 +170,7 @@
             {
               "title": "Show History"
             }
-          ],
-          "lang": "en"
+          ]
         }
       ],
       "defaultResponsePlatforms": {
@@ -183,225 +184,7 @@
   "webhookForSlotFilling": false,
   "fallbackIntent": false,
   "events": [],
-  "userSays": [
-    {
-      "id": "d1c30f78-e76d-4b94-aeb2-295327083fcb",
-      "data": [
-        {
-          "text": "list",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        },
-        {
-          "text": " me your functionalities",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "5d980ce0-d1ea-4bfe-89a8-e931dca84baa",
-      "data": [
-        {
-          "text": "do",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": true
-        },
-        {
-          "text": " me a favour",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "84f0385b-4121-43ec-8629-529a838cd039",
-      "data": [
-        {
-          "text": "help",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        },
-        {
-          "text": " me in ",
-          "userDefined": false
-        },
-        {
-          "text": "some way",
-          "meta": "@sys.ignore",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "7fafcf39-4296-4f52-b0d6-e0b76e4e2c4e",
-      "data": [
-        {
-          "text": "do",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": true
-        },
-        {
-          "text": " something for me",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "20f67ed2-20af-4d02-b7bc-e26e5bae5b9f",
-      "data": [
-        {
-          "text": "what can you ",
-          "userDefined": false
-        },
-        {
-          "text": "do",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": true
-        },
-        {
-          "text": " for me ",
-          "userDefined": false
-        },
-        {
-          "text": "today",
-          "meta": "@sys.ignore",
-          "userDefined": false
-        },
-        {
-          "text": "?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "a63500e5-fefa-4db1-87ba-3d47ce2160c1",
-      "data": [
-        {
-          "text": "help",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "16065092-7568-49b3-93ed-dd61074ca80c",
-      "data": [
-        {
-          "text": "please ",
-          "userDefined": false
-        },
-        {
-          "text": "help",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        },
-        {
-          "text": " me",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "be1b4854-9ea3-4236-9206-3f0abfdb9e35",
-      "data": [
-        {
-          "text": "help",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        },
-        {
-          "text": " me please",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "c465482e-b277-4bd3-ad5e-99abe4171004",
-      "data": [
-        {
-          "text": "how can you ",
-          "userDefined": false
-        },
-        {
-          "text": "help",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        },
-        {
-          "text": " me?",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    },
-    {
-      "id": "2bd0cb33-dc49-4a7a-a0e0-e001c5daa551",
-      "data": [
-        {
-          "text": "help",
-          "alias": "List-Of-Functionalities",
-          "meta": "@List-Of-Functionalities",
-          "userDefined": false
-        },
-        {
-          "text": " me",
-          "userDefined": false
-        }
-      ],
-      "isTemplate": false,
-      "count": 0,
-      "updated": 0,
-      "isAuto": false
-    }
-  ],
-  "followUpIntents": [],
-  "liveAgentHandoff": false,
-  "endInteraction": false,
   "conditionalResponses": [],
   "condition": "",
-  "conditionalFollowupEvents": [],
-  "templates": []
+  "conditionalFollowupEvents": []
 }

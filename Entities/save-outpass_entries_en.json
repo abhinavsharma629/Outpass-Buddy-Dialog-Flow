@@ -1,0 +1,19 @@
+[
+  {
+    "value": "save",
+    "synonyms": [
+      "save",
+      "save outpass",
+      "save my outpass",
+      "save it"
+    ]
+  },
+  {
+    "value": "draft",
+    "synonyms": [
+      "draft",
+      "save as draft",
+      "draft it"
+    ]
+  }
+]
