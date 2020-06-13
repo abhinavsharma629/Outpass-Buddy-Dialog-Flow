@@ -33,6 +33,10 @@
      not only in your location but all over the world.
 
 
+**NOTE:- If the server was sleeping for a while or failed you process your request currently( which may be the case as its hosted on heroku and heroku makes your apps to sleep
+when not in use) so don't worry you don't have to fill in your details again, just say send it again, and your are good to go.**
+
+
 ## Prerequisites:- 
    - Need to have an account on the below mentioned server for using facilities of the outpass manager.
    - You need to signup using same email address as your google account for OAuth signin using google assistant.
