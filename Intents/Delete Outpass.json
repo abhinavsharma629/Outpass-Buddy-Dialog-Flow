@@ -52,10 +52,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": [
-            "I am so sorry for late response. The server was sleeping for a while. Try 1 more time.",
-            "The server was sleeping for a while. Shall I try 1 more time? Sorry For Inconvenience."
-          ]
+          "speech": "I am so sorry for late response. The server was sleeping for a while. Say Delete Outpass so that i can try again."
         }
       ],
       "defaultResponsePlatforms": {

@@ -26,7 +26,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "Server Was Sleeping For A While. Please Try Again."
+          "speech": "I am so sorry for late response. The server was sleeping for a while. Say Login so that i can log you in."
         }
       ],
       "defaultResponsePlatforms": {},

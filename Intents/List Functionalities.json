@@ -32,7 +32,10 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": "What Can I Do For You?"
+          "speech": [
+            "What Can I Do For You?",
+            "How may I help you today?"
+          ]
         },
         {
           "type": "list_card",

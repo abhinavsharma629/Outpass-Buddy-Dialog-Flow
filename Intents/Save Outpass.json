@@ -27,8 +27,8 @@
           "lang": "en",
           "condition": "",
           "speech": [
-            "Sorry you need to create an outpass first for saving it.",
-            "Create a new outpass for saving it."
+            "Sorry you need to create an outpass first for saving it. Say Create Outpass To create a new one",
+            "Create a new outpass for saving it. Say Create Outpass To create a new one."
           ]
         }
       ],

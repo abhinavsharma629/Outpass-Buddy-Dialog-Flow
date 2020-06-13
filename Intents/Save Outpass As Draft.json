@@ -43,11 +43,7 @@
           "type": 0,
           "lang": "en",
           "condition": "",
-          "speech": [
-            "Sorry The Server Was Sleeping For A While!! Please Try One More Time.",
-            "Please Try One More Time. Sorry The Server Was Sleeping For A While!!",
-            "I am so sorry for late response. The server was sleeping for a while. Try 1 more time."
-          ]
+          "speech": "I am so sorry for late response. The server was sleeping for a while. Say Save it so that i can try again."
         }
       ],
       "defaultResponsePlatforms": {},
